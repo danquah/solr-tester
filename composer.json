@@ -1,0 +1,28 @@
+{
+	"name": "danquah/sampleapp",
+	"description": "Template App.",
+	"authors": [
+		{
+			"name": "Mads H. Danquah",
+			"email": "mads@danquah.dk"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Danquah\\": "src/Danquah/"
+		}
+	},
+	"bin": [
+		"application.php"
+	],
+	"config": {
+		"bin-dir": "bin"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"symfony/console": "3.0.*@dev",
+		"symfony/process": "3.0.*@dev",
+		"symfony/yaml": "3.0.*@dev",
+		"solarium/solarium": "2.4.0"
+	}
+}
